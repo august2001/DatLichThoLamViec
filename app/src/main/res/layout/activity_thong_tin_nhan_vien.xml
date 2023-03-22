@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThongTinNhanVienActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/id_trove"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_chevron_left" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin cá nhân"/>
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:paddingLeft="30dp"
+            android:background="@drawable/ic_email"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+        <TextView
+            android:paddingRight="50dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Email"/>
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:id="@+id/id_emailkhachhang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Email"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:paddingLeft="30dp"
+            android:background="@drawable/ic_brush"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="35dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Họ Tên"/>
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:id="@+id/id_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Name"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:paddingLeft="30dp"
+            android:background="@drawable/ic_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Điện thoại"/>
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:id="@+id/id_sdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="So dien thoai"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:paddingLeft="30dp"
+            android:background="@drawable/ic_emoji_people"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="3dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Công Việc"/>
+        <TextView
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:id="@+id/id_congviec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Công việc"/>
+
+    </LinearLayout>
+
+</LinearLayout>

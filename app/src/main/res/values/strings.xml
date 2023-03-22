@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trangchu">Trang chủ</string>
+    <string name="thongtin">Thông tin cá nhân</string>
+    <string name="lich">Lịch sửa chữa</string>
+    <string name="doimatkhau">Đổi mật khẩu</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="thongtinlienhe">Thông tin liên hệ</string>
+
+    <string name="openmenunavigation">Mo menu</string>
+    <string name="closemenunavigation">Dong menu</string>
+</resources>

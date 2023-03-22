@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cong_viec">
+        
+        <item>Sửa điện lạnh</item>
+        <item>Sửa ống nước</item>
+        <item>Sửa nhà</item>
+        <item>Sửa điện</item>
+        <item>Dò nước</item>
+        <item>Sửa thiết bị điện tử</item>
+
+
+    </string-array>
+</resources>

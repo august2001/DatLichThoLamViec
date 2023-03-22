@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B8A6A6"
+    tools:context=".TrangChuNhanVienActivity">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+
+            android:id="@+id/a1"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/imglich"
+                android:layout_width="wrap_content"
+                android:background="@drawable/clipboard"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="18dp"
+                android:text="Lich" />
+
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/a1"
+            android:id="@+id/a2"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/imgthongtin"
+                android:layout_width="95dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/user" />
+
+            <TextView
+
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="18dp"
+                android:text="Thông tin" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/dangxuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:text="Đăng Xuất"
+        android:textColor="@color/black" />
+
+
+
+</LinearLayout>

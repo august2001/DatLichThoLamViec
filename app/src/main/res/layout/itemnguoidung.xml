@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgdonhang1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/user" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Tên KH:"
+            android:textSize="20dp"
+            android:id="@+id/txttendonhangchu"/>
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_toRightOf="@+id/txttendonhangchu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên KH"
+            android:textSize="20dp"
+            android:id="@+id/txttenkhachhang"/>
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/txttenkhachhang"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Email:"
+            android:textSize="20dp"
+            android:id="@+id/txtemailchu"/>
+
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttenkhachhang"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/txtemailchu"
+            android:paddingLeft="20dp"
+            android:text="huynhvantuan@123"
+            android:textSize="20dp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/txtemail"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="SDT:"
+            android:textSize="20dp"
+            android:id="@+id/txtsdtchu"/>
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtemail"
+            android:layout_toRightOf="@+id/txtsdtchu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:textSize="20dp"
+            android:id="@+id/txtsdt"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cardViewdonhang"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgdonhang1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/clipboard" />
+
+        <TextView
+            android:id="@+id/donhang"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:paddingLeft="10dp"
+            android:text="Đơn hàng:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_toRightOf="@+id/donhang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên Đơn Hàng"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txttendonhang"/>
+
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txttendonhang"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày đặt"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txtngaydat"/>
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtngaydat"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txtsdtdat"/>
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_below="@+id/donhang"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Nội dung:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/noidung"/>
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtsdtdat"
+            android:layout_toRightOf="@+id/noidung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txtnoidung"/>
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtnoidung"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txtdiachi"/>
+        <TextView
+            android:visibility="gone"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtdiachi"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email nv"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/txtemailnv"/>
+
+        <TextView
+            android:id="@+id/trangthai"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noidung"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:paddingLeft="10dp"
+            android:text="Trạng thái:"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtemailnv"
+            android:layout_toRightOf="@+id/trangthai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trang thai"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/txthoanthanh"/>
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@+id/imgdonhang1"
+            android:layout_below="@+id/trangthai"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận:"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/xacnhan"/>
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txthoanthanh"
+            android:layout_toRightOf="@+id/xacnhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xac nhan"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/txtxacnhan"/>
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/txtxacnhan"
+            android:layout_toRightOf="@+id/xacnhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/txtemail"/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

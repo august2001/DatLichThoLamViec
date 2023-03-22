@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1F5FE"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ĐẶT DỊCH VỤ"
+            android:textSize="20dp"
+            android:textColor="#FF1744"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="Tên dịch vụ"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/txttendichvu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <!--        android:gravity="center"/>-->
+        <!--        android:background="@drawable/vongtron"/>-->
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Email"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Tên khách hàng"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:id="@+id/txttenkhachhang"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Số điện thoại"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:id="@+id/txtsdt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"/>
+        <!--        android:background="@drawable/vongtron"/>-->
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Nội dung"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:id="@+id/txtnoidung"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"/>
+        <!--        android:background="@drawable/vongtron"/>-->
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Ngày đặt"
+            android:textSize="20dp"/>
+        <EditText
+            android:hint="ngay/thang/nam"
+            android:id="@+id/txtngaydat"
+            android:inputType="datetime"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"/>
+        <!--        android:background="@drawable/vongtron"/>-->
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Địa chỉ"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:id="@+id/txtdiachi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"/>
+
+        <!--        android:background="@drawable/vongtron"/>-->
+        <Button
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/btnDat"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#76FF03"
+            android:text="ĐẶT LỊCH"
+            android:textColor="#0E0000"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vongtron"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

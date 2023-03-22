@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/layoutitem"
+    app:cardUseCompatPadding="true"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/ttdv"
+            android:background="#E2F3F1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_baseline"
+                android:layout_centerVertical="true"
+                android:id="@+id/img1"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nametext"
+                android:layout_toRightOf="@+id/img1"
+
+                />
+            <LinearLayout
+                android:paddingRight="20dp"
+                android:gravity="right"
+                android:layout_below="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:textStyle="bold"
+                    android:textColor="#750000"
+                    android:id="@+id/chitiet"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Chi tiết"/>
+                <Button
+                    android:id="@+id/btnDatLich"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="ĐẶT LỊCH"
+                    android:backgroundTint="@color/purple_500"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
